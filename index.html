@@ -20,6 +20,7 @@
       <li><a href="#projects">projects</a></li>
       <li><a href="#education">education</a></li>
       <li><a href="#contact">contact</a></li>
+      <li><a href="#message">contact</a></li>
     </ul>
     <a href="https://drive.google.com/file/d/1TtRtmd1dAjBzj5YG3VyWRepfACWYuAgN/view?usp=drive_link"  class="btn btn-outline nav-resume">Resume</a>
   </div>
@@ -256,6 +257,36 @@
     </div>
   </div>
 </section>
+
+
+<section class="section alt" id="message">
+  <div class="container">
+    <p class="eyebrow">// send a query</p>
+    <h2 class="section-title">Drop me a message</h2>
+    <p class="about-text">Have a question, opportunity, or just want to say hi? Fill this out and it'll land straight in my inbox.</p>
+
+    <form class="contact-form" action="https://formspree.io/f/mojgekgo" method="POST">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+      <p class="form-status" id="formStatus"></p>
+    </form>
+  </div>
+</section>
+
+
 
 <footer class="footer">
   <div class="container">
